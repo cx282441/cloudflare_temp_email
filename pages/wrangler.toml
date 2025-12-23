@@ -6,3 +6,6 @@ compatibility_date = "2024-05-13"
 binding = "BACKEND"
 service = "cloudflare_temp_email"
 environment = "production"
+
+# 用于临时邮箱的所有域名, 支持多个域名
+DOMAINS = ["cx22722.top"]
